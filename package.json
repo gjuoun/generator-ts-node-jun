@@ -1,7 +1,7 @@
 {
   "name": "generator-ts-node-jun",
   "version": "0.1.0",
-  "description": "",
+  "description": "Minimized Typescript-Node.js start template",
   "main": "index.js",
   "files": [
     "generators"
@@ -11,5 +11,7 @@
   ],
   "dependencies": {
     "yeoman-generator": "^1.1.1"
-  }
+  },
+  "author": "John Guo <gjuoun@gmail.com>",
+  "license": "MIT"
 }
