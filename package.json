@@ -12,6 +12,12 @@
   "dependencies": {
     "yeoman-generator": "^1.1.1"
   },
-  "author": "John Guo <gjuoun@gmail.com>",
+  "homepage": "https://github.com/gjuoun/generator-ts-node-jun",
+
+  "author": {
+    "name": "John Guo",
+    "email": "gjuoun@gmail.com",
+    "url": "https://github.com/gjuoun/"
+  },
   "license": "MIT"
 }

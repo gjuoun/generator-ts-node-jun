@@ -11,5 +11,6 @@ module.exports = class extends Generator {
     this.fs.copyTpl(__dirname, ".");
     this.fs.copyTpl(path.join(__dirname, ".*"), ".");
     this.fs.delete("index.js");
+    this.npmInstall(["winston","@types/winston", "chalk", "@types/chalk"])
   }
 };
