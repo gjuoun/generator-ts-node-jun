@@ -1,0 +1,15 @@
+{
+  "name": "generator-ts-node-jun",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^1.1.1"
+  }
+}
