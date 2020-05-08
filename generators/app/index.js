@@ -7,10 +7,19 @@ module.exports = class extends Generator {
     this.log("Initializing...");
   }
   start() {
-    this.log("You are using ts-node-jun, the minimized Typescript with Node template");
+    this.log(
+      "You are using ts-node-jun, the minimized Typescript with Node template"
+    );
     this.fs.copyTpl(__dirname, ".");
     this.fs.copyTpl(path.join(__dirname, ".*"), ".");
     this.fs.delete("index.js");
-    this.npmInstall(["winston","@types/winston", "chalk", "@types/chalk"])
+    this.npmInstall([
+      "winston",
+      "@types/winston",
+      "chalk",
+      "@types/chalk",
+      "typescript",
+      "ts-node-dev",
+    ]);
   }
 };
