@@ -1,4 +1,17 @@
-Minimized Typescript-Node.js start template
+# Typescript Node.js Generator - Jun
 
-Please run command to use this template
-> yo ts-node-jun
+> Minimized [Typescript](https://www.typescriptlang.org/) [Node.js](https://nodejs.org/en/) start template.
+
+# Install
+
+```
+$ npm install --global ts-node-jun
+```
+
+
+## Usage
+
+```
+$ yo ts-node-jun
+```
+
