@@ -2,7 +2,7 @@
 
 > Minimized [Typescript](https://www.typescriptlang.org/) [Node.js](https://nodejs.org/en/) start template.
 
-# Install
+## Install
 
 ```
 $ npm install --global ts-node-jun
