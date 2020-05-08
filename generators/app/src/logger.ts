@@ -12,6 +12,7 @@ class Logger {
     return format.combine(
       (colorize ? format.colorize() : format.simple()),
       format.label({ label }),
+      format.splat(),
       format.timestamp(),
       format.printf((info) => {
         const title = colorize ? chalk.green.bold(info.label) : info.label
