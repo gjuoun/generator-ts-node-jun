@@ -1,6 +1,6 @@
 {
   "name": "generator-ts-node-jun",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Minimized Typescript-Node.js start template",
   "main": "index.js",
   "files": [

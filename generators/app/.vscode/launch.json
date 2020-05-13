@@ -7,12 +7,12 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Debug app.ts",
-      "skipFiles": ["<node_internals>/**"],
-      "outputCapture": "std",
-      "preLaunchTask": "npm: build",
-      "program": "${workspaceFolder}/src/app.ts",
-      "outFiles": ["${workspaceFolder}/**/*.js"]
+      "name": "Launch Program",
+      "args": ["${relativeFile}"],
+      "runtimeArgs": ["--nolazy", "-r", "ts-node/register"],
+      "sourceMaps": true,
+      "cwd": "${workspaceFolder}",
+      "protocol": "inspector"
     }
   ]
 }

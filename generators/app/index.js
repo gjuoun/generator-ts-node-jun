@@ -26,6 +26,7 @@ module.exports = class extends Generator {
         "@types/dotenv",
         "@types/express",
         "typescript",
+        "ts-node",
         "ts-node-dev",
       ],
       { "save-dev": true }
