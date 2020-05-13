@@ -21,9 +21,6 @@ module.exports = class extends Generator {
     this.npmInstall(["winston", "chalk", "dotenv"]);
     this.npmInstall(
       [
-        "@types/winston",
-        "@types/chalk",
-        "@types/dotenv",
         "@types/express",
         "typescript",
         "ts-node",
